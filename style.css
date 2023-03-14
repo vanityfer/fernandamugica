@@ -1,5 +1,5 @@
 body {
-  font-size: 20pt;
+  font-size: 10pt;
   font-family:'DotGothic16', sans-serif;
   overflow-y: scroll;
   background-size: cover;
@@ -10,7 +10,7 @@ body {
 
 .titulo {
 padding: 2em;
-height: 10em;
+height: 5em;
 max-width: 100%;
 background-color: black;
 display: flex;
@@ -32,7 +32,7 @@ background-image: url(imagen24.gif);
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
-height: 15em;
+height: 10em;
 border-radius: 0.5em;
     
 
@@ -60,8 +60,8 @@ border-radius: 0.5em;
 }
 
 .tarjeta {
-    width: 20em;
-    background-color: grey;
+    width: 10em;
+    background-color: black;
     
     margin: 0.5rem;
     padding: em;
@@ -71,7 +71,7 @@ border-radius: 0.5em;
 }
 
 .marcoTarjeta {
-    background-color:grey;
+    background-color:yellow;
     padding:1em;
     border-radius: 0.5em;
   
@@ -85,7 +85,7 @@ max-width: 100%;
 
 .textoTarjeta h2{
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .piedepagina{
