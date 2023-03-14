@@ -8,6 +8,12 @@ body {
   
 }
 
+h2 {
+  text-align: center;
+  color:black;
+}
+
+
 .titulo {
 padding: 2em;
 height: 5em;
