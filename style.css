@@ -2,7 +2,7 @@ body {
   font-size: 20pt;
   font-family:'DotGothic16', sans-serif;
   overflow-y: scroll;
-  background-image: url("llanu.jpg");
+ 
   background-size: cover;
   font-weight: bold;
   
@@ -37,7 +37,7 @@ align-items: center;
 }
 
 .imagen {
-background-image: url(deportesaereos.jpg);
+background-image: url(imagen0.gif);
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
