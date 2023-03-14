@@ -2,7 +2,6 @@ body {
   font-size: 20pt;
   font-family:'DotGothic16', sans-serif;
   overflow-y: scroll;
-  background-image: url("llanu.jpg");
   background-size: cover;
   font-weight: bold;
   
@@ -13,7 +12,7 @@ body {
 padding: 2em;
 height: 10em;
 max-width: 100%;
-background-color: brown;
+background-color: black;
 display: flex;
 align-items: center;
 }
@@ -23,17 +22,17 @@ align-items: center;
 .titulo h1{
     text-align:center;
     font-size: 5em;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'DotGothic16', sans-serif;
     width: 100%;
-    color: bisque;
+    color: magenta;
 }
 
 .imagen {
-background-image: url(deportesaereos.jpg);
+background-image: url(imagen25.gif);
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
-height: 30em;
+height: 15em;
 border-radius: 0.5em;
     
 
@@ -46,7 +45,7 @@ border-radius: 0.5em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: bisque;
+    background-color: magenta;
     justify-content:center ;
     
 }
@@ -57,12 +56,12 @@ border-radius: 0.5em;
 
 .tarjeta a:visited, .tarjeta a:link , .tarjeta a:active{
     text-decoration: none;
-    color: bisque;
+    color: magenta;
 }
 
 .tarjeta {
     width: 20em;
-    background-color: brown;
+    background-color: grey;
     
     margin: 0.5rem;
     padding: em;
@@ -72,7 +71,7 @@ border-radius: 0.5em;
 }
 
 .marcoTarjeta {
-    background-color:brown;
+    background-color:grey;
     padding:1em;
     border-radius: 0.5em;
   
@@ -90,7 +89,7 @@ max-width: 100%;
 }
 
 .piedepagina{
-    background-color:bisque;
+    background-color:magenta;
     padding: 1rem;
     border-radius: 0.5em;
     text-align: center;
