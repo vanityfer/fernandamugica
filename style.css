@@ -17,85 +17,89 @@ body {
   
   
   
+.titulo {
+padding: 2em;
+height: 10em;
+max-width: 100%;
+background-color: brown;
+display: flex;
+align-items: center;
 }
-.stanzabox {
-   font-family:'DotGothic16', sans-serif;
-  width: 90%;
-  #margin: 0 auto;
-  font-weight: bold;
-  text-align: right;
-  padding-top: .5em;
-  color: black;
- 
+
+
+
+.titulo h1{
+    text-align:center;
+    font-size: 5em;
+    font-family: 'Fjalla One', sans-serif;
+    width: 100%;
+    color: bisque;
 }
-.menu {
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  line-height: 1.5;
-  text-align: justify;
+
+.imagen {
+background-image: url(deportesaereos.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+height: 30em;
+border-radius: 0.5em;
+    
+
+}
+
+
+
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: bisque;
+    justify-content:center ;
+    
+}
+.tarjeta:hover {
+    box-shadow: 5px 5px 15px #000 ;
+    transition: .5s;
+}
+
+.tarjeta a:visited, .tarjeta a:link , .tarjeta a:active{
+    text-decoration: none;
+    color: bisque;
+}
+
+.tarjeta {
+    width: 20em;
+    background-color: brown;
+    
+    margin: 0.5rem;
+    padding: em;
+    border-radius: 0.5em;
+    border: black;
+    transition: .5s;
+}
+
+.marcoTarjeta {
+    background-color:brown;
+    padding:1em;
+    border-radius: 0.5em;
   
 }
-.menu table {
-  width: 100%;
+
+
+.marcoTarjeta img {
+max-width: 100%;
+}
+
+
+.textoTarjeta h2{
   text-align: center;
-  
-}
-.searchsuggestionbox {
-  width: 80%;
-  height: 1.5em;
-  margin: 0 auto;
-  padding: 0;
-}
-.searchbox {
-  width: 100%;
-  /border: solid lightgray 1px;*/
- / border-radius: 10px;*/
-  height: 1em;
-  padding: .5em;
-  margin: 0 auto;
-}
-.searchtext {
-  width: 100%;
-  margin: 0 auto;
-  color:black;
-  font-weight: bold;
-  background-color:transparent;
-}
-.suggestionbox {
-  /border: solid lightgray 1px;*/
-  /border-radius: 10px;*/
-  width: 80%;
-  margin: 0 0;
-  padding-left: .5em;
-  background: transparent;
-  opacity: 0.5;
-  color:black;
-}
-.suggestion {
-  font-weight: bold;
-}
-h1 {
-  text-align: center;
-  color:black;
+  font-size: 3em;
 }
 
-h3 {
-  text-align:center;
-}
-a {
-  text-decoration: none;
-  color: #000000; 
-
-}
-
-
-.selected {
-  font-weight: bold;
-}
-.disabled {
-  color: gray;
-}
-.space {
-  padding: 20px;
+.piedepagina{
+    background-color:bisque;
+    padding: 1rem;
+    border-radius: 0.5em;
+    text-align: center;
 }
