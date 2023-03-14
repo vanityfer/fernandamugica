@@ -24,7 +24,7 @@ align-items: center;
     font-size: 5em;
     font-family: 'DotGothic16', sans-serif;
     width: 100%;
-    color: magenta;
+    color: #FF00FF;
 }
 
 .imagen {
@@ -45,7 +45,7 @@ border-radius: 0.5em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: magenta;
+    background-color: #FF00FF;
     justify-content:center ;
     
 }
@@ -56,7 +56,7 @@ border-radius: 0.5em;
 
 .tarjeta a:visited, .tarjeta a:link , .tarjeta a:active{
     text-decoration: none;
-    color: magenta;
+    color: #FF00FF;
 }
 
 .tarjeta {
@@ -89,7 +89,7 @@ max-width: 100%;
 }
 
 .piedepagina{
-    background-color:magenta;
+    background-color:#FF00FF;
     padding: 1rem;
     border-radius: 0.5em;
     text-align: center;
